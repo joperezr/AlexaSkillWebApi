@@ -1,0 +1,10 @@
+{
+  "HubName": "iothub-ehub-hackathont-190070-7de192ddba",
+  "HubEndPoint": "messages/events",
+  "ConnectionString": "Endpoint=sb://ihsuprodblres032dednamespace.servicebus.windows.net/",
+  "SasKey": "PWcuO7pmZQGzldh6S04HPYpKXGavzs5xi7Wo1LnAGZU=",
+  "SasKeyName": "iothubowner",
+  "DeviceKey": "no needed anymore",
+  "HubUri": "HackathonTestHub.azure-devices.net",
+  "NeedsDeviceSetup": false
+}

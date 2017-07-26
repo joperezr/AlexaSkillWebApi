@@ -1,0 +1,29 @@
+{
+    "intents": [
+        {
+          "intent": "GetSensorState",
+          "slots": [
+            {
+              "name": "Sensor",
+              "type": "LIST_OF_SENSORS"
+            }
+           ]
+        }
+    ]
+}
+
+
+--------------- Custom Slot Types ---------------
+LIST_OF_SENSORS
+
+Light Sensor
+Motion Sensor
+LED Sensor
+
+
+--------------- Sample Utterances ---------------
+
+GetSensorState	Give me the state for {Sensor}
+GetSensorState	What is the state of {Sensor}
+GetSensorState	What is the state of the {Sensor}
+GetSensorState	What is {Sensor} state
