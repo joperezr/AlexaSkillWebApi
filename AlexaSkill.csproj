@@ -13,7 +13,7 @@
     <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.0-preview2-final" />
     <PackageReference Include="Alexa4.NetCore" Version="1.0.0-preview1-001" />
     <PackageReference Include="Microsoft.AspNetCore.Mvc.WebApiCompatShim" Version="2.0.0-preview2-final" />
-    <PackageReference Include="Safern.Hub.ReaderSender" Version="1.0.5" />
+    <PackageReference Include="Safern.Hub.ReaderSender" Version="1.0.6" />
   </ItemGroup>
 
   <ItemGroup>

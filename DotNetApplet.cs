@@ -65,7 +65,7 @@ namespace AlexaSkill
             configuration.DeviceKey = await deviceManager.AddDeviceOrGetKeyAsync(deviceId);
             MessageSender messageSender = new MessageSender(configuration);
 
-            messageSender.SendMessageAsync(jsonObject, "DefaultQueue");
+            messageSender.SendMessageAsync(jsonObject);
             return 0;
         }
 
